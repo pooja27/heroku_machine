@@ -10,7 +10,7 @@ exports.getMongoData = function(req, res) {
 	var options = {
 		host : mongo.URL,
 		port : mongo.PORT,
-		path : "/getGumballCount",
+		path : "/getHelloWorld",
 		method : 'GET'
 	};
 
